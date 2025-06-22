@@ -27,8 +27,8 @@ The project is deployed on AWS and follows secure access controls, including VPC
 ## Folder Structure
 
 The project is divided into two main folders:
-- **cloud-computing-frontend**: Contains the React-based frontend code.
-- **my-backend**: Contains the Node.js-based backend code.
+- **frontend**: Contains the React-based frontend code.
+- **backend**: Contains the Node.js-based backend code.
 
 ## Features
 
@@ -49,7 +49,7 @@ Run the following commands to start the frontend application locally:
 
 
 #### Navigate to the frontend folder
-cd cloud-computing-frontend
+cd frontend
 
 #### Install dependencies
 npm install
@@ -65,7 +65,7 @@ Run the following commands to start the backend application locally:
 
 
 #### Navigate to the backend folder
-cd my-backend
+cd backend
 
 #### Install dependencies
 npm install
@@ -81,9 +81,6 @@ The application is deployed in a cloud-based architecture using AWS services:
 - **Database**: Hosted on **Amazon DynamoDB**.
 - **File/Image Storage**: Managed via **AWS S3**.
 
-### Deployment Links:
-- **Frontend (Elastic Beanstalk)**: [http://cloudcomputing-env.eba-g22mshge.us-east-1.elasticbeanstalk.com/](http://cloudcomputing-env.eba-g22mshge.us-east-1.elasticbeanstalk.com/)
-- **Backend (EC2)**: [http://54.173.73.252:5000/api/posts](http://54.173.73.252:5000/api/posts)
 
 ### Additional Resources:
 - [AWS Elastic Beanstalk Documentation](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html)
